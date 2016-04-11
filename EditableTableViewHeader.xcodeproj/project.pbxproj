@@ -10,6 +10,7 @@
 		504669CC1CBB9BDE00CCA70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504669CB1CBB9BDE00CCA70D /* AppDelegate.swift */; };
 		504669CE1CBB9BDE00CCA70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504669CD1CBB9BDE00CCA70D /* Assets.xcassets */; };
 		504669D11CBB9BDE00CCA70D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504669CF1CBB9BDE00CCA70D /* MainMenu.xib */; };
+		504669D91CBB9C2100CCA70D /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504669D81CBB9C2100CCA70D /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		504669CD1CBB9BDE00CCA70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504669D01CBB9BDE00CCA70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		504669D21CBB9BDE00CCA70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504669D81CBB9C2100CCA70D /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				504669CB1CBB9BDE00CCA70D /* AppDelegate.swift */,
+				504669D81CBB9C2100CCA70D /* TableView.swift */,
 				504669CD1CBB9BDE00CCA70D /* Assets.xcassets */,
 				504669CF1CBB9BDE00CCA70D /* MainMenu.xib */,
 				504669D21CBB9BDE00CCA70D /* Info.plist */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504669CC1CBB9BDE00CCA70D /* AppDelegate.swift in Sources */,
+				504669D91CBB9C2100CCA70D /* TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
