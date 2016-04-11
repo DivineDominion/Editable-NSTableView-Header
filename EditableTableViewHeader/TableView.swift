@@ -68,6 +68,8 @@ extension TableWindowController: NSWindowDelegate {
         // Return default field editor for everything not in the header.
         guard client is TableHeaderView else { return nil }
 
+        // Comment out this line to see what happens by default: the old header
+        // is not deselected.
         headerFieldEditor.switchEditingTarget()
 
         return headerFieldEditor
@@ -120,7 +122,10 @@ class TableHeaderCell: NSTableHeaderCell, NSTextViewDelegate {
         guard let editor = notification.object as? NSText else { return }
 
         self.title = editor.string ?? ""
+        print("Header did change to \(self.title)")
         self.highlighted = false
+
+        // The following will fire a regular `NSTextDidEndEditingNotification`:
         self.endEditing(editor)
     }
 }
