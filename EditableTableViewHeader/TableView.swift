@@ -44,14 +44,11 @@ class TableWindowController: NSWindowController {
 
 class HeaderFieldEditor: NSTextView {
 
-    static let ManualEndEditing = "field editor will change"
-
     func switchEditingTarget() {
 
-        guard let delegate = self.delegate else { return }
+        guard let cell = self.delegate as? NSCell else { return }
 
-        let notification = NSNotification(name: HeaderFieldEditor.ManualEndEditing, object: self)
-        delegate.textDidEndEditing?(notification)
+        cell.endEditing(self)
     }
 }
 
