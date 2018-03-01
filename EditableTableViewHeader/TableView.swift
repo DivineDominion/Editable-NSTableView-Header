@@ -130,7 +130,7 @@ class TableHeaderCell: NSTableHeaderCell, NSTextViewDelegate {
 
 // MARK: Table interaction: double click
 
-extension Collection where Index : Comparable {
+extension Collection {
 
     subscript (safe index: Index) -> Element? {
         return index < endIndex ? self[index] : nil
