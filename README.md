@@ -22,7 +22,7 @@ You can extract all components from `TableView.swift` and use them in your app. 
 
 ## Credits
 
-* (Ben Rhayader)[http://stackoverflow.com/users/1049376/ben-rhayader] for the best answer on StackOverflow
+* [Ben Rhayader](http://stackoverflow.com/users/1049376/ben-rhayader) for the best answer on StackOverflow
 
 ## License
 
